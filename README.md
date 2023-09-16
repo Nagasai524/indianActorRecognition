@@ -25,6 +25,7 @@ The cropped images of actor's faces used for this project are uploaded to Kaggle
 
 ### How to use the project?
  - Clone the repo.
+ - Install dependencies using the command `pip install -r requirements.txt`
  - Execute `train.ipynb` file and change the path in the notebook to the dataset location that was on your local PC. If you have your dataset uploaded on kaggle then you can directly link your dataset to this [kaggle kernel](https://www.kaggle.com/nagasai524/indian-actor-recognition-using-facenet).
  - Download all the utility files that were generated during the execution of the `train.ipynb` file.
  - Move all the downloaded utilities to `utils` folder.
