@@ -63,6 +63,22 @@ def get_embeddings(face_pixels):
 st.sidebar.markdown("### Navigation")
 model_emb,svm_model,label_encoder,detector,known_face_embeddings,classes=return_utils()
 choice=st.sidebar.radio("page_navigator",['Actor Recognizer','Test Images','Trained Actors'],label_visibility='collapsed')
+
+st.sidebar.markdown("<h1 style='text-align:center'><u><b> Developer </b></u></h1>",unsafe_allow_html=True)
+with st.sidebar:
+    st.image("test_images/me.jpg")
+    with st.expander("About Me"):
+        st.write("""
+            Hello, I'm a Data Scientist with 2 years of experience in data analysis, machine learning, and deep learning. I have a strong background in Computer Science which allows me to apply a wide range of techniques to solve complex business problems.
+
+            I have a passion for understanding and solving complex data problems, and I pride myself on my ability to communicate technical concepts to non-technical stakeholders. I believe that the key to success in data science is to approach problems with curiosity, rigor, and creativity, and to continuously learn and adapt to new technologies and techniques.
+        """)
+    st.subheader("Social Links")
+    col1,col2,col3=st.columns(3)
+    col1.markdown("<a href='https://www.linkedin.com/in/nagasai-biginepalli-64648a146/'>Linkedin</a>",unsafe_allow_html=True)
+    col2.markdown("<a href='https://github.com/Nagasai524'>Github</a>",unsafe_allow_html=True)
+    col3.markdown("<a href='mailto:www.biginepallinagasai109@gmail.com'>Gmail</a>",unsafe_allow_html=True)
+    
 if choice=='Actor Recognizer':
   st.markdown("# <center> <u> Indian Actor Recognition </u> </center> <br/> <br/>",True)
   st.markdown("## <center> Upload an Image File </center>",True)
