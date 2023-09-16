@@ -4,7 +4,7 @@
 
 This project aims to recognize Indian actors using the powerful FaceNet model for face recognition and Support Vector Machines (SVM) for classification. It's an exciting application of deep learning in the world of entertainment and facial recognition. 
 
-You can quickly test the project on [Streamlit Cloud]()
+You can quickly test the project on [Streamlit Cloud](https://indian-actor-recognition.streamlit.app/)
 
 The project is also available as a [kaggle kernel](https://www.kaggle.com/nagasai524/indian-actor-recognition-using-facenet). 
 
