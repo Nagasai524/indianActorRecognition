@@ -41,3 +41,14 @@ The cropped images of actor's faces used for this project are uploaded to Kaggle
 ![Flow Chart](https://github.com/Nagasai524/indianActorRecognition/blob/main/readme_images/5.png)
 ![Flow Chart](https://github.com/Nagasai524/indianActorRecognition/blob/main/readme_images/6.png)
 
+### About Developer
+Developer: Nagasai Biginepalli 
+<center><b><u>Networking Links</u></b></center>
+<hr></hr>
+<b>👉My Kaggle profile :</b> https://www.kaggle.com/nagasai524 <br>
+<b>👉Shoot me mails :</b> www.biginepallinagasai109@gmail.com<br>
+<b>👉Connect on LinkedIn :</b> https://www.linkedin.com/in/nagasai-biginepalli-64648a146/<br>
+<b>👉Explore Github :</b> https://github.com/Nagasai524 <br> 
+<hr></hr>
+<center> <strong> If you have any questions, feel free to comment! </strong>  <br>
+<center> <strong > ✨Best Wishes✨ </strong>
