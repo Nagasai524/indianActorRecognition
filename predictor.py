@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="Actor Detector",layout="wide")
+st.set_page_config(page_title="Actor Detector",layout="wide",initial_sidebar_state='expanded')
 from mtcnn.mtcnn import MTCNN
 import numpy as np
 import cv2
