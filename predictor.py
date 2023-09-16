@@ -116,7 +116,7 @@ if choice=='Actor Recognizer':
             detected_actors=",".join(actor_names)
             st.success("The Recognized actors in the image are "+detected_actors)
         elif len(actor_names)==0:
-            st.error("No trained actor is recorgnised in the provided image.")
+            st.error("No trained actor is recorgnised in the provided image. Go to 'Trained Actors' page to check if the actor was listed there.")
         
         for i in range(len(filtered_face_pixels)):
             if i%faces_in_each_row==0:
